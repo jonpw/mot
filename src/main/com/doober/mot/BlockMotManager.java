@@ -42,7 +42,7 @@ public class BlockMotManager extends Block implements ITileEntityProvider {
 	
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing side, float hitX, float hitY, float hitZ) {
-	    if (!world.isRemote) {
+	    if (world.isRemote) {
 	        player.openGui(MotMod.instance, ModGuiHandler.MANAGER_GUI, world, pos.getX(), pos.getY(), pos.getZ());
 	    }
 	    return true;

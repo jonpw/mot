@@ -1,5 +1,7 @@
 package com.doober.mot;
 
+import org.apache.logging.log4j.Logger;
+
 import com.doober.mot.item.ModItems;
 import com.doober.mot.manager.MotManager;
 import com.doober.mot.proxy.CommonProxy;
@@ -25,11 +27,13 @@ public class MotMod {
 	public static CommonProxy proxy;
 	
 	public static MotManager motManager;
+	public static Logger logger;
 		
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {			
 		System.out.println(name + " is loading2!");
-		
+		logger = event.getModLog();
+        proxy.preInit(event);		
 		ModBlocks.init();
 		System.out.println("registered blocks");
 		
@@ -38,14 +42,14 @@ public class MotMod {
       	
 	}
 
-	@Mod.EventHandler
-	public void init(FMLInitializationEvent event) {
-		
-	}
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent e) {
+        proxy.init(e);
+    }
 
-	@Mod.EventHandler
-	public void postInit(FMLPostInitializationEvent event) {
-
-	}
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent e) {
+        proxy.postInit(e);
+    }
 
 }

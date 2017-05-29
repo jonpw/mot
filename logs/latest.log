@@ -1,63 +1,97 @@
-[00:00:58] [Server thread/INFO]: [STDOUT]: tick!
-[00:00:58] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:01:07] [Server thread/INFO]: [STDOUT]: tick!
-[00:01:07] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:01:27] [Server thread/INFO]: [STDOUT]: tick!
-[00:01:27] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:01:58] [Server thread/INFO]: [STDOUT]: tick!
-[00:01:58] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:02:38] [Server thread/INFO]: [STDOUT]: tick!
-[00:02:38] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:09:24] [Server thread/INFO]: [STDOUT]: tick!
-[00:09:24] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:09:35] [Server thread/INFO]: [STDOUT]: tick!
-[00:09:35] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:10:19] [Server thread/INFO]: [STDOUT]: tick!
-[00:10:19] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:10:26] [Server thread/INFO]: [STDOUT]: tick!
-[00:10:26] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:11:22] [Server thread/INFO]: [STDOUT]: tick!
-[00:11:22] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:11:54] [Server thread/INFO]: [STDOUT]: tick!
-[00:11:54] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:11:56] [Server thread/INFO]: [STDOUT]: tick!
-[00:11:56] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:13:34] [Server thread/INFO]: [STDOUT]: tick!
-[00:13:34] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:16:07] [Server thread/INFO]: [STDOUT]: tick!
-[00:16:07] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:18:08] [Server thread/INFO]: [STDOUT]: tick!
-[00:18:08] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:21:22] [Server thread/INFO]: [STDOUT]: tick!
-[00:21:22] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:21:46] [Server thread/INFO]: [STDOUT]: tick!
-[00:21:46] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:23:44] [Server thread/INFO]: [STDOUT]: tick!
-[00:23:44] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:24:13] [Server thread/INFO]: [STDOUT]: tick!
-[00:24:13] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:25:23] [Server thread/INFO]: [STDOUT]: tick!
-[00:25:23] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:26:23] [Server thread/INFO]: [STDOUT]: tick!
-[00:26:23] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:26:45] [Server thread/INFO]: [STDOUT]: tick!
-[00:26:45] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:26:48] [Server thread/INFO]: [STDOUT]: tick!
-[00:26:48] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:30:37] [Server thread/INFO]: [STDOUT]: tick!
-[00:30:37] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:31:03] [Server thread/INFO]: [STDOUT]: tick!
-[00:31:03] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:31:09] [Server thread/INFO]: [STDOUT]: tick!
-[00:31:09] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:32:37] [Server thread/INFO]: [STDOUT]: tick!
-[00:32:37] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
-[00:34:49] [Client thread/INFO]: Stopping!
-[00:34:49] [Server thread/INFO]: Stopping server
-[00:34:49] [Server thread/INFO]: Saving players
-[00:34:49] [Server thread/INFO]: Saving worlds
-[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[00:34:50] [Client thread/INFO]: SoundSystem shutting down...
-[00:34:50] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[08:48:45] [Client thread/INFO]: Setting user: Player827
+[08:48:49] [Client thread/WARN]: Skipping bad option: lastServer:
+[08:48:49] [Client thread/INFO]: LWJGL Version: 2.9.4
+[08:48:49] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 5/30/17 8:48 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1091812152 bytes (1041 MB) / 1234698240 bytes (1177 MB) up to 14303625216 bytes (13641 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13474 Compatibility Profile Context 22.19.165.1' Renderer: 'Radeon (TM) RX 480 Graphics'
+[08:48:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[08:48:52] [Client thread/INFO]: [STDOUT]: Mot Mod is loading2!
+[08:48:52] [Client thread/INFO]: [STDOUT]: registered blocks
+[08:48:53] [Client thread/INFO]: [STDOUT]: Registered to server
+[08:48:53] [MQTT Call: testPlayer/INFO]: [STDOUT]: Message delivered
+[08:48:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[08:48:56] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[08:48:56] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[08:48:56] [Thread-9/INFO]: OpenAL initialized.
+[08:48:56] [Sound Library Loader/INFO]: Sound engine started
+[08:49:00] [Client thread/INFO]: Created: 16x16 textures-atlas
+[08:49:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[08:49:03] [Client thread/INFO]: SoundSystem shutting down...
+[08:49:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[08:49:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[08:49:03] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[08:49:03] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[08:49:03] [Thread-11/INFO]: OpenAL initialized.
+[08:49:04] [Sound Library Loader/INFO]: Sound engine started
+[08:49:07] [Client thread/INFO]: Created: 512x512 textures-atlas
+[08:49:08] [Client thread/WARN]: Skipping bad option: lastServer:
+[08:49:09] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[08:49:22] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[08:49:22] [Server thread/INFO]: Generating keypair
+[08:49:22] [Server thread/INFO]: Preparing start region for level 0
+[08:49:23] [Server thread/INFO]: Preparing spawn area: 46%
+[08:49:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[08:49:25] [Server thread/INFO]: Player827[local:E:604ae3b4] logged in with entity id 339 at (193.8943479277868, 85.0, 253.21050456264658)
+[08:49:26] [Server thread/INFO]: Player827 joined the game
+[08:49:27] [Server thread/INFO]: Saving and pausing game...
+[08:49:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:49:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:49:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:49:27] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@2c2de21[id=f7494cf2-23c9-3033-9230-c4a9565d6251,name=Player827,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[08:49:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2336ms behind, skipping 46 tick(s)
+[08:49:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2176ms behind, skipping 43 tick(s)
+[08:49:48] [Server thread/INFO]: Player827 has just earned the achievement [Taking Inventory]
+[08:49:48] [Client thread/INFO]: [CHAT] Player827 has just earned the achievement [Taking Inventory]
+[08:50:02] [Server thread/INFO]: [STDOUT]: tick!
+[08:50:02] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[08:50:09] [Client thread/INFO]: Stopping!
+[08:50:09] [Server thread/INFO]: Stopping server
+[08:50:09] [Server thread/INFO]: Saving players
+[08:50:09] [Server thread/INFO]: Saving worlds
+[08:50:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[08:50:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[08:50:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[08:50:09] [Client thread/INFO]: SoundSystem shutting down...
+[08:50:09] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

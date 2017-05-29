@@ -6,18 +6,17 @@ import com.doober.mot.network.ModGuiHandler;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 public class CommonProxy {
 
 	
-	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 
 	}
 	
-	@Mod.EventHandler	
 	public void init(FMLInitializationEvent e) {
 	    NetworkRegistry.INSTANCE.registerGuiHandler(MotMod.instance, new ModGuiHandler());
 	}
@@ -31,6 +30,11 @@ public class CommonProxy {
 	}*/
 
 	public void registerRenderers() {
+	}
+
+	public void postInit(FMLPostInitializationEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
