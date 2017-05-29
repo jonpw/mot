@@ -1,0 +1,51 @@
+[23:14:37] [Client thread/INFO]: Setting user: Player775
+[23:14:40] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:14:40] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:14:41] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 5/22/17 11:14 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 457555912 bytes (436 MB) / 1032847360 bytes (985 MB) up to 14303625216 bytes (13641 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13474 Compatibility Profile Context 22.19.165.1' Renderer: 'Radeon (TM) RX 480 Graphics'
+[23:14:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[23:14:43] [Client thread/INFO]: [STDOUT]: Mot Mod is loading!
+[23:14:43] [Client thread/INFO]: [STDOUT]: registered
+[23:14:43] [Client thread/INFO]: [STDOUT]: Connecting to broker: tcp://iot.eclipse.org:1883
+[23:14:44] [Client thread/INFO]: [STDOUT]: Connected
+[23:14:44] [Client thread/INFO]: [STDOUT]: Publishing message: Message from MqttPublishSample
+[23:14:44] [Client thread/INFO]: [STDOUT]: Message published
+[23:14:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:14:47] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[23:14:47] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:14:47] [Thread-9/INFO]: OpenAL initialized.
+[23:14:47] [Sound Library Loader/INFO]: Sound engine started
+[23:14:51] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:14:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[23:14:54] [Client thread/INFO]: SoundSystem shutting down...
+[23:14:54] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:14:54] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:14:54] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[23:14:54] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:14:54] [Thread-11/INFO]: OpenAL initialized.
+[23:14:55] [Sound Library Loader/INFO]: Sound engine started
+[23:14:57] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:14:59] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:15:00] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id

@@ -1,0 +1,63 @@
+[00:00:58] [Server thread/INFO]: [STDOUT]: tick!
+[00:00:58] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:01:07] [Server thread/INFO]: [STDOUT]: tick!
+[00:01:07] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:01:27] [Server thread/INFO]: [STDOUT]: tick!
+[00:01:27] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:01:58] [Server thread/INFO]: [STDOUT]: tick!
+[00:01:58] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:02:38] [Server thread/INFO]: [STDOUT]: tick!
+[00:02:38] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:09:24] [Server thread/INFO]: [STDOUT]: tick!
+[00:09:24] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:09:35] [Server thread/INFO]: [STDOUT]: tick!
+[00:09:35] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:10:19] [Server thread/INFO]: [STDOUT]: tick!
+[00:10:19] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:10:26] [Server thread/INFO]: [STDOUT]: tick!
+[00:10:26] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:11:22] [Server thread/INFO]: [STDOUT]: tick!
+[00:11:22] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:11:54] [Server thread/INFO]: [STDOUT]: tick!
+[00:11:54] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:11:56] [Server thread/INFO]: [STDOUT]: tick!
+[00:11:56] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:13:34] [Server thread/INFO]: [STDOUT]: tick!
+[00:13:34] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:16:07] [Server thread/INFO]: [STDOUT]: tick!
+[00:16:07] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:18:08] [Server thread/INFO]: [STDOUT]: tick!
+[00:18:08] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:21:22] [Server thread/INFO]: [STDOUT]: tick!
+[00:21:22] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:21:46] [Server thread/INFO]: [STDOUT]: tick!
+[00:21:46] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:23:44] [Server thread/INFO]: [STDOUT]: tick!
+[00:23:44] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:24:13] [Server thread/INFO]: [STDOUT]: tick!
+[00:24:13] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:25:23] [Server thread/INFO]: [STDOUT]: tick!
+[00:25:23] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:26:23] [Server thread/INFO]: [STDOUT]: tick!
+[00:26:23] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:26:45] [Server thread/INFO]: [STDOUT]: tick!
+[00:26:45] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:26:48] [Server thread/INFO]: [STDOUT]: tick!
+[00:26:48] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:30:37] [Server thread/INFO]: [STDOUT]: tick!
+[00:30:37] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:31:03] [Server thread/INFO]: [STDOUT]: tick!
+[00:31:03] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:31:09] [Server thread/INFO]: [STDOUT]: tick!
+[00:31:09] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:32:37] [Server thread/INFO]: [STDOUT]: tick!
+[00:32:37] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[00:34:49] [Client thread/INFO]: Stopping!
+[00:34:49] [Server thread/INFO]: Stopping server
+[00:34:49] [Server thread/INFO]: Saving players
+[00:34:49] [Server thread/INFO]: Saving worlds
+[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:34:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:34:50] [Client thread/INFO]: SoundSystem shutting down...
+[00:34:50] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
