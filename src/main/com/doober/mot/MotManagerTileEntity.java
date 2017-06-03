@@ -4,6 +4,9 @@ import java.util.Map;
 
 import com.doober.mot.manager.MotManager;
 import net.minecraft.client.Minecraft;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagString;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.math.BlockPos;
@@ -11,6 +14,9 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public class MotManagerTileEntity extends TileEntity implements ITickable {
+	
+	public String server;
+	public String port;
 
 	public void update() {
 		World world = FMLCommonHandler.instance().getMinecraftServerInstance().worlds[0];
@@ -32,6 +38,35 @@ public class MotManagerTileEntity extends TileEntity implements ITickable {
 			}			
 		}
 	}
+	
+
+    @Override
+    public void readFromNBT(NBTTagCompound compound) {
+        super.readFromNBT(compound);
+        if (compound.hasKey("server")) {
+        	// should check if changed and reconnect?
+            this.server = (String) compound.getTag("server").toString();
+        }
+        if (compound.hasKey("portr")) {
+            this.port = (String) compound.getTag("port").toString();
+        }
+    }
+
+    @Override
+    public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+        super.writeToNBT(compound);
+        compound.setTag("server", new NBTTagString(this.server));
+        compound.setTag("port", new NBTTagString(this.port));
+        return compound;
+    }
+
+
+
+    public boolean canInteractWith(EntityPlayer playerIn) {
+        // If we are too far away from this tile entity you cannot use it
+        return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
+    }
+
 
 
 }
