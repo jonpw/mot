@@ -28,7 +28,13 @@ public class GuiManager extends GuiContainer {
 	    super.drawGuiContainerForegroundLayer(mouseX, mouseY);
 	    namedChannel.drawTextBox();
 	}
-	
+
+    @Override
+    protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
+        //mc.getTextureManager().bindTexture(background);
+        drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
+    }
+    
 	@Override
 	public boolean doesGuiPauseGame() {
 	    return false;

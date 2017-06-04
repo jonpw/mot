@@ -15,6 +15,7 @@ import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public class MotManagerTileEntity extends TileEntity implements ITickable {
 	
+	public static final int SIZE = 9;
 	public String server;
 	public String port;
 

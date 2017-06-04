@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.network.IGuiHandler;
 public class ModGuiHandler implements IGuiHandler {
 
 	public static final int MANAGER_GUI = 0;
+	public static final int HUEMANAGER_GUI = 0;
 
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
@@ -30,6 +31,16 @@ public class ModGuiHandler implements IGuiHandler {
 	            return new GuiManager(containerTileEntity, new MotManagerContainer(player.inventory, containerTileEntity));
 	        }
 	    }
+	    if (ID == HUEMANAGER_GUI)
+	    {
+	        BlockPos pos = new BlockPos(x, y, z);
+	        TileEntity te = world.getTileEntity(pos);
+	        if (te instanceof HueManagerTileEntity) {
+	            HueManagerTileEntity containerTileEntity = (HueManagerTileEntity) te;
+	            return new GuiManager(containerTileEntity, new HueManagerContainer(player.inventory, containerTileEntity));
+	        }
+	    }
+
 	    return null;
 	}
 }

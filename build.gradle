@@ -7,6 +7,19 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
     }
 }
+
+def urlFile = { url, name ->
+    File file = new File("$projectDir/libs/${name}.jar")
+    file.parentFile.mkdirs()
+    if (!file.exists()) {
+        new URL(url).withInputStream { downloadStream ->
+            file.withOutputStream { fileOut ->
+                fileOut << downloadStream
+            }
+        }
+    }
+    return files(file.absolutePath)
+}
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
@@ -34,6 +47,9 @@ minecraft {
 }
 
 dependencies {
+    compile urlFile("https://github.com/PhilipsHue/PhilipsHueSDK-Java-MultiPlatform-Android/raw/master/QuickStartApp/libs/huesdkresources.jar", "huesdkresources")
+	compile urlFile("https://github.com/PhilipsHue/PhilipsHueSDK-Java-MultiPlatform-Android/raw/master/QuickStartApp/libs/huelocalsdk.jar", "huelocalsdk")
+	compile urlFile("http://search.maven.org/remotecontent?filepath=org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.1.1/org.eclipse.paho.client.mqttv3-1.1.1.jar", "org.eclipse.paho.client.mqttv3-1.1.1")
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"

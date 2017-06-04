@@ -2,6 +2,7 @@ package com.doober.mot;
 
 import org.apache.logging.log4j.Logger;
 
+import com.doober.mot.hue.HueController;
 import com.doober.mot.item.ModItems;
 import com.doober.mot.manager.MotManager;
 import com.doober.mot.proxy.CommonProxy;
@@ -28,6 +29,8 @@ public class MotMod {
 	
 	public static MotManager motManager;
 	public static Logger logger;
+	
+	public static HueController motHue;
 		
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {			
@@ -38,6 +41,8 @@ public class MotMod {
 		System.out.println("registered blocks");
 		
 		motManager = new MotManager("testPlayer");
+		motHue = new HueController();
+		motHue.start();
       	ModItems.init();
       	
 	}

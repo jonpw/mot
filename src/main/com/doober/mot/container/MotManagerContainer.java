@@ -1,11 +1,17 @@
 package com.doober.mot.container;
 
+import javax.annotation.Nullable;
+
 import com.doober.mot.MotManagerTileEntity;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.SlotItemHandler;
 
 public class MotManagerContainer extends Container {
 	private MotManagerTileEntity te;
@@ -59,15 +65,15 @@ public class MotManagerContainer extends Container {
             ItemStack itemstack1 = slot.getStack();
             itemstack = itemstack1.copy();
 
-            if (index < TestContainerTileEntity.SIZE) {
-                if (!this.mergeItemStack(itemstack1, TestContainerTileEntity.SIZE, this.inventorySlots.size(), true)) {
+            if (index < MotManagerTileEntity.SIZE) {
+                if (!this.mergeItemStack(itemstack1, MotManagerTileEntity.SIZE, this.inventorySlots.size(), true)) {
                     return null;
                 }
-            } else if (!this.mergeItemStack(itemstack1, 0, TestContainerTileEntity.SIZE, false)) {
+            } else if (!this.mergeItemStack(itemstack1, 0, MotManagerTileEntity.SIZE, false)) {
                 return null;
             }
 
-            if (itemstack1.stackSize == 0) {
+            if (itemstack1.getMaxStackSize() == 0) {
                 slot.putStack(null);
             } else {
                 slot.onSlotChanged();
