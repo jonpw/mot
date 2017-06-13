@@ -1,10 +1,10 @@
-[17:29:17] [Client thread/INFO]: Setting user: Player528
-[17:29:21] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:29:21] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:29:22] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// Everything's going to plan. No, really, that was supposed to happen.
+[23:32:09] [Client thread/INFO]: Setting user: Player55
+[23:32:12] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:32:12] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:32:13] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Uh... Did I do that?
 
-Time: 6/3/17 5:29 PM
+Time: 6/11/17 11:32 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -19,55 +19,238 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_131, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 1086788640 bytes (1036 MB) / 1228931072 bytes (1172 MB) up to 14303625216 bytes (13641 MB)
+	Memory: 1082029272 bytes (1031 MB) / 1205862400 bytes (1150 MB) up to 14303625216 bytes (13641 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13474 Compatibility Profile Context 22.19.165.1' Renderer: 'Radeon (TM) RX 480 Graphics'
-[17:29:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
-[17:29:24] [Client thread/INFO]: [STDOUT]: Mot Mod is loading2!
-[17:29:24] [Client thread/INFO]: [STDOUT]: registered blocks
-[17:29:26] [Client thread/INFO]: [STDOUT]: Registered to server
-[17:29:26] [MQTT Call: testPlayer/INFO]: [STDOUT]: Message delivered
-[17:29:26] [Client thread/INFO]: [STDOUT]: Initialized Hue SDK
-[17:29:28] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:29:29] [Thread-12/INFO]: Initializing LWJGL OpenAL
-[17:29:29] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:29:29] [Thread-12/INFO]: OpenAL initialized.
-[17:29:29] [Sound Library Loader/INFO]: Sound engine started
-[17:29:33] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:29:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
-[17:29:34] [Thread-10/INFO]: [STDOUT]: HUE: SDK got AP 192.168.1.246
-[17:29:34] [Thread-15/INFO]: [STDOUT]: HUE: Press button on 001788FFFE1D57B4
-[17:29:34] [Timer-2/INFO]: [STDOUT]: Hue SDK error:link button not pressed
-[17:29:35] [Timer-3/INFO]: [STDOUT]: Hue SDK error:link button not pressed
-[17:29:36] [Client thread/INFO]: SoundSystem shutting down...
-[17:29:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:29:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:29:36] [Thread-20/INFO]: Initializing LWJGL OpenAL
-[17:29:36] [Thread-20/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:29:36] [Thread-20/INFO]: OpenAL initialized.
-[17:29:37] [Sound Library Loader/INFO]: Sound engine started
-[17:29:37] [Thread-19/INFO]: [STDOUT]: HUE: Setting all lights on...
-[17:29:37] [Thread-19/INFO]: [STDOUT]: HUE: got light Identifier: 1
-Name: Study
-type: CT_COLOR_LIGHT
-
-[17:29:37] [Thread-19/INFO]: [STDOUT]: HUE: got light Identifier: 2
-Name: Hue Lamp 2
-type: CT_COLOR_LIGHT
-
-[17:29:37] [Thread-19/INFO]: [STDOUT]: HUE: got light Identifier: 3
-Name: Living Room
-type: CT_COLOR_LIGHT
-
-[17:29:37] [Thread-24/INFO]: [STDOUT]: HUE: success with something
-[17:29:37] [Thread-23/INFO]: [STDOUT]: HUE: success with something
-[17:29:37] [Thread-22/INFO]: [STDOUT]: HUE: success with something
-[17:29:40] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:29:41] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:29:42] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[17:29:47] [Client thread/INFO]: Stopping!
-[17:29:47] [Client thread/INFO]: SoundSystem shutting down...
-[17:29:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:32:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[23:32:15] [Client thread/INFO]: [STDOUT]: Mot Mod is loading2!
+[23:32:15] [Client thread/INFO]: [STDOUT]: registered blocks
+[23:32:17] [Client thread/INFO]: [STDOUT]: Registered to server
+[23:32:17] [MQTT Call: testPlayer/INFO]: [STDOUT]: Message delivered
+[23:32:17] [Client thread/INFO]: [STDOUT]: Initialized Hue SDK
+[23:32:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:32:20] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[23:32:20] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:32:20] [Thread-12/INFO]: OpenAL initialized.
+[23:32:20] [Sound Library Loader/INFO]: Sound engine started
+[23:32:23] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:32:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mot Mod
+[23:32:25] [Thread-10/INFO]: [STDOUT]: HUE: SDK got AP 192.168.1.246
+[23:32:25] [Thread-15/INFO]: [STDOUT]: HUE: Press button on 001788FFFE1D57B4
+[23:32:25] [Timer-2/INFO]: [STDOUT]: Hue SDK error:link button not pressed
+[23:32:26] [Timer-3/INFO]: [STDOUT]: Hue SDK error:link button not pressed
+[23:32:26] [Client thread/INFO]: SoundSystem shutting down...
+[23:32:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:32:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:32:27] [Thread-19/INFO]: Initializing LWJGL OpenAL
+[23:32:27] [Thread-19/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:32:27] [Thread-19/INFO]: OpenAL initialized.
+[23:32:27] [Sound Library Loader/INFO]: Sound engine started
+[23:32:30] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:32:31] [Client thread/WARN]: Skipping bad option: lastServer:
+[23:32:33] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:32:35] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[23:32:35] [Server thread/INFO]: Generating keypair
+[23:32:36] [Server thread/INFO]: Preparing start region for level 0
+[23:32:37] [Server thread/INFO]: Preparing spawn area: 50%
+[23:32:37] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:32:39] [Server thread/INFO]: Player55[local:E:bb43435a] logged in with entity id 335 at (193.02070337572243, 85.0, 254.85832755058945)
+[23:32:39] [Server thread/INFO]: Player55 joined the game
+[23:32:40] [Server thread/INFO]: Saving and pausing game...
+[23:32:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:32:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:32:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:32:41] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7ac16363[id=44d903f8-18c4-31d1-b8f3-054c7e2bcb1f,name=Player55,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[23:32:45] [Client thread/INFO]: [STDOUT]: HUE: Claimed tile
+[23:32:45] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:32:45] [Server thread/INFO]: [STDOUT]: HUE: Claimed tile
+[23:32:45] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:32:46] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:46] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:46] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:46] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:46] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:46] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:46] [Thread-24/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:46] [Thread-25/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:48] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:48] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:48] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:48] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:48] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:48] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:48] [Thread-26/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:48] [Thread-27/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:49] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:49] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:49] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:49] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:49] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:49] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:49] [Thread-28/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:49] [Thread-29/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:52] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:52] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:52] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:52] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:52] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:52] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:52] [Thread-30/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:52] [Thread-31/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:54] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:54] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:54] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:54] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:54] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:54] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:32:54] [Thread-32/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:54] [Thread-33/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:55] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:55] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:55] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:55] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:32:55] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:32:55] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:32:55] [Thread-34/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:55] [Thread-35/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:32:57] [Server thread/INFO]: Player55 has just earned the achievement [Taking Inventory]
+[23:32:57] [Client thread/INFO]: [CHAT] Player55 has just earned the achievement [Taking Inventory]
+[23:33:17] [Server thread/INFO]: [STDOUT]: tick!
+[23:33:17] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[23:34:05] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:05] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:07] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:07] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:10] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:10] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:10] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@4be57f97
+[23:34:10] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:10] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:10] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@4be57f97
+[23:34:10] [Thread-36/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:10] [Thread-37/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:12] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:12] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:12] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@56229351
+[23:34:12] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:12] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:12] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@56229351
+[23:34:12] [Thread-38/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:12] [Thread-39/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:13] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:13] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:14] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:14] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:15] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:15] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:15] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@2a1bfddf
+[23:34:15] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:15] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:15] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@2a1bfddf
+[23:34:15] [Thread-40/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:15] [Thread-41/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:17] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:17] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:17] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@34591199
+[23:34:17] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:17] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:17] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@34591199
+[23:34:17] [Thread-42/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:17] [Thread-43/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:18] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:18] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:20] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:20] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:34:21] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:21] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:21] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:34:21] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:21] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:21] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:34:21] [Thread-44/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:21] [Thread-45/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:22] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:22] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:22] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:34:22] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:34:22] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:34:22] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:34:22] [Thread-46/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:34:22] [Thread-47/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:35:49] [Server thread/INFO]: [STDOUT]: tick!
+[23:35:49] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[23:36:24] [Server thread/INFO]: [STDOUT]: tick!
+[23:36:24] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[23:37:33] [Server thread/INFO]: [STDOUT]: tick!
+[23:37:33] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[23:38:05] [Server thread/INFO]: [STDOUT]: tick!
+[23:38:05] [Server thread/INFO]: [STDOUT]: newUpdate?:191,85,253
+[23:38:25] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:25] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:25] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:38:25] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:25] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:25] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@be430332
+[23:38:26] [Thread-48/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:26] [Thread-49/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:26] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:26] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:26] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:38:26] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:26] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:26] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@c88016ec
+[23:38:26] [Thread-50/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:27] [Thread-51/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:28] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:38:28] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:38:29] [Client thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:38:29] [Server thread/INFO]: [STDOUT]: HUE: got # lights: 3
+[23:38:29] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:29] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:29] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@4be57f97
+[23:38:29] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:29] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:29] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@4be57f97
+[23:38:30] [Thread-52/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:30] [Thread-53/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:30] [Client thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:30] [Client thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:30] [Client thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@56229351
+[23:38:30] [Server thread/INFO]: [STDOUT]: HUE: clicked your tile
+[23:38:30] [Server thread/INFO]: [STDOUT]: HUE: lights set: [1, 2, 3]
+[23:38:30] [Server thread/INFO]: [STDOUT]: HUE: set: com.philips.lighting.model.PHLightState@56229351
+[23:38:30] [Thread-54/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:38:31] [Thread-55/INFO]: [STDOUT]: Hue SDK error:parameter, reachable, not available
+[23:39:34] [Client thread/INFO]: Stopping!
+[23:39:35] [Server thread/INFO]: Stopping server
+[23:39:35] [Server thread/INFO]: Saving players
+[23:39:35] [Server thread/INFO]: Saving worlds
+[23:39:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:39:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:39:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:39:35] [Client thread/INFO]: SoundSystem shutting down...
+[23:39:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

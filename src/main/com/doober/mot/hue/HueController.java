@@ -16,6 +16,8 @@ import com.philips.lighting.model.PHBridgeResource;
 import com.philips.lighting.model.PHHueError;
 import com.philips.lighting.model.PHHueParsingError;
 import com.philips.lighting.model.PHLight;
+import com.philips.lighting.model.PHLight.PHLightAlertMode;
+import com.philips.lighting.model.PHLight.PHLightEffectMode;
 import com.philips.lighting.model.PHLightState;
 
 public class HueController implements PHSDKListener, PHLightListener {
@@ -29,20 +31,18 @@ public class HueController implements PHSDKListener, PHLightListener {
 		System.out.println("Initialized Hue SDK");
 	}
 
-	public void set(String apID, String lightID, boolean newOn) {
+	public void set(String lightID, PHLightState state) {
 		List<PHBridge> bridges = phHueSDK.getAllBridges();
         if (bridges.isEmpty()) {
         	System.out.println("HUE: No bridges");
             return;
 		} else {
 	        for (PHBridge bridge : bridges) {
-	            for (PHLight light : bridge.getResourceCache().getAllLights()) {
-	            	if (lightID == light.getUniqueId()) {
-	            		PHLightState lightState = light.getLastKnownLightState();
-	            		lightState.setBrightness(254);
-	            		lightState.setOn(newOn);
-	            		bridge.updateLightState(light,  lightState, this);
-	            	}
+	        	Map<String, PHLight> lights = bridge.getResourceCache().getLights();
+	        	System.out.println("HUE: lights set: "+lights.keySet().toString());
+	            if (lights.containsKey(lightID)) {
+	            	bridge.updateLightState(lights.get(lightID),  state, this);
+	            	System.out.println("HUE: set: "+state.toString());
 	            }
 	        }
 		}
@@ -58,7 +58,7 @@ public class HueController implements PHSDKListener, PHLightListener {
 	            lights.addAll(bridge.getResourceCache().getAllLights());
 	        }
 		}
-        System.out.println("HUE: lights: "+lights.toString());
+        //System.out.println("HUE: lights: "+lights.toString());
         return lights;
 	}
         
@@ -82,20 +82,24 @@ public class HueController implements PHSDKListener, PHLightListener {
         }
     }
 
-
     public void pair(String id) {
         for (PHAccessPoint accessPoint : this.accessPoints) {
             if (accessPoint.getBridgeId().endsWith(id)) {
                 phHueSDK.connect(accessPoint);
             }
         }
-}
+    }
     
     public void start() {
         this.phHueSDK.getNotificationManager().registerSDKListener(this);
         PHBridgeSearchManager sm = (PHBridgeSearchManager) phHueSDK.getSDKService(PHHueSDK.SEARCH_BRIDGE);
         sm.search(true, true);
-}
+    }
+    
+    public void search() {
+        PHBridgeSearchManager sm = (PHBridgeSearchManager) phHueSDK.getSDKService(PHHueSDK.SEARCH_BRIDGE);
+        sm.search(true, true);    	
+    }
     
 	@Override
 	public void onAccessPointsFound(List<PHAccessPoint> list) {
@@ -121,19 +125,16 @@ public class HueController implements PHSDKListener, PHLightListener {
 	@Override
 	public void onCacheUpdated(List<Integer> arg0, PHBridge bridge) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void onConnectionLost(PHAccessPoint accessPoint) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void onConnectionResumed(PHBridge bridge) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

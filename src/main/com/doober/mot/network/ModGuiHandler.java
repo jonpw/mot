@@ -1,7 +1,9 @@
 package com.doober.mot.network;
 
+import com.doober.mot.HueManagerTileEntity;
 import com.doober.mot.MotManagerTileEntity;
 import com.doober.mot.client.gui.GuiManager;
+import com.doober.mot.container.HueManagerContainer;
 import com.doober.mot.container.MotManagerContainer;
 
 import net.minecraft.entity.player.EntityPlayer;
@@ -31,7 +33,7 @@ public class ModGuiHandler implements IGuiHandler {
 	            return new GuiManager(containerTileEntity, new MotManagerContainer(player.inventory, containerTileEntity));
 	        }
 	    }
-	    if (ID == HUEMANAGER_GUI)
+	    /*if (ID == HUEMANAGER_GUI)
 	    {
 	        BlockPos pos = new BlockPos(x, y, z);
 	        TileEntity te = world.getTileEntity(pos);
@@ -39,7 +41,7 @@ public class ModGuiHandler implements IGuiHandler {
 	            HueManagerTileEntity containerTileEntity = (HueManagerTileEntity) te;
 	            return new GuiManager(containerTileEntity, new HueManagerContainer(player.inventory, containerTileEntity));
 	        }
-	    }
+	    }*/
 
 	    return null;
 	}

@@ -31,7 +31,6 @@ public class HueManagerTileEntity extends TileEntity {
         compound.setTag("apID", new NBTTagString(this.apID));
         compound.setTag("lightID", new NBTTagString(this.lightID));
         return super.writeToNBT(compound);
-;
     }
 
 
