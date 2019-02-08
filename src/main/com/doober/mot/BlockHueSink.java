@@ -38,9 +38,7 @@ public class BlockHueSink extends BlockTileEntity<HueSinkTileEntity> {
 				tile.setOn(!tile.isOn);
 			} else {
 				System.out.println("HUE: clicked NOT your tile");
-				// TODO: control other people's lights
-				// send a network message to the server, to send a message to whoever owns the block to send the hue command
-				//TODO: control the server's lights? (how is that even set?)
+				// All players check the block owner on update and will set the light to the given state
 			}
 		} else {
 			if (tile.owner != player.getUniqueID()) {
@@ -56,15 +54,15 @@ public class BlockHueSink extends BlockTileEntity<HueSinkTileEntity> {
 				int oldIndex = -1;
 				
 				for (PHLight light: lights) {
-					if (tile.lightID == light.getIdentifier()) {
+					if (tile.light.equals(light)) {
 						oldLight = light;
 						oldIndex = lights.indexOf(oldLight);
 					}
 				}
 				
 				newLight = lights.get((oldIndex+1) % (lights.size()));
-				tile.lightID = newLight.getIdentifier();
-				System.out.print("HUE: block set to "+tile.lightID);
+				tile.light = newLight;
+				System.out.print("HUE: block set to "+tile.light.toString());
 			}
 		}
 			

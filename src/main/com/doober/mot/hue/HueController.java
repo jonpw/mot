@@ -24,6 +24,7 @@ public class HueController implements PHSDKListener, PHLightListener {
 	
 	public PHHueSDK phHueSDK;
 	public List<PHAccessPoint> accessPoints = new ArrayList<PHAccessPoint>();
+	public boolean isWaitingForAuthentication = false;
 	
 	public HueController () {
 		phHueSDK = PHHueSDK.getInstance();
@@ -97,8 +98,12 @@ public class HueController implements PHSDKListener, PHLightListener {
     }
     
     public void search() {
-        PHBridgeSearchManager sm = (PHBridgeSearchManager) phHueSDK.getSDKService(PHHueSDK.SEARCH_BRIDGE);
-        sm.search(true, true);    	
+    	if (!this.isWaitingForAuthentication) {
+    		PHBridgeSearchManager sm = (PHBridgeSearchManager) phHueSDK.getSDKService(PHHueSDK.SEARCH_BRIDGE);
+    		sm.search(true, true);
+    	} else {
+    		System.out.println("HUE: Still waiting for press");
+    	}
     }
     
 	@Override
@@ -113,13 +118,15 @@ public class HueController implements PHSDKListener, PHLightListener {
 	@Override
 	public void onAuthenticationRequired(PHAccessPoint accessPoint) {
 		System.out.println("HUE: Press button on "+accessPoint.getBridgeId());
+		this.isWaitingForAuthentication = true;
 		phHueSDK.startPushlinkAuthentication(accessPoint);
 	}
 
 	@Override
 	public void onBridgeConnected(PHBridge bridge, String bridgeString) {
+		this.isWaitingForAuthentication = false;
 		System.out.print("HUE: SDK connected to "+bridgeString);
-		List<PHLight> lights = getLights();
+		this.isConnected = true;
 	}
 
 	@Override
@@ -139,6 +146,7 @@ public class HueController implements PHSDKListener, PHLightListener {
 
 	@Override
 	public void onError(int arg0, String error) {
+		this.isWaitingForAuthentication = false;
 		System.out.println("Hue SDK error:"+error);
 		
 	}

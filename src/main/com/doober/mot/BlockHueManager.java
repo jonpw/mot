@@ -23,6 +23,7 @@ public class BlockHueManager extends BlockTileEntity<HueManagerTileEntity> {
 	{
 		HueManagerTileEntity tile = getTileEntity(world, pos);
 		System.out.println(tile.toString());
+		MotMod.motHue.search();
 	    return true;
 	}
 	

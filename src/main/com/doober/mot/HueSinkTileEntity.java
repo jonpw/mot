@@ -40,10 +40,14 @@ public class HueSinkTileEntity extends TileEntity {
         return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
     }
     
+    // only the clients should call this
     public void setOn(boolean newOn) {
     	this.isOn = newOn;
     	if (owner == Minecraft.getMinecraft().player.getUniqueID()) {
+    		System.out.println("HUE: Settting your light");
     		MotMod.motHue.set(lightID, this.isOn? this.lightStateOn: this.lightStateOff);
+    	} else {
+    		System.out.println("HUE: wasn't your light");
     	}
     }
 
